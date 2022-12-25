@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af9954a9d13eb74a85b6ee9caaa0ab8, type: 3}
+  m_Name: Test2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: fc52ffc1-547d-4f14-a9ad-dd6d10168e13
+    PortName: Next
+    TargetNodeGuid: 2b363d65-5f93-423b-b61a-83343d6021f1
+  - BaseNodeGuid: 2b363d65-5f93-423b-b61a-83343d6021f1
+    PortName: Amazing!
+    TargetNodeGuid: a2b0ff29-b746-43ed-86b2-dc987109ef1f
+  - BaseNodeGuid: 2b363d65-5f93-423b-b61a-83343d6021f1
+    PortName: Great!
+    TargetNodeGuid: 8b44afd3-ff83-44d5-8900-99c0178a10f4
+  - BaseNodeGuid: 2b363d65-5f93-423b-b61a-83343d6021f1
+    PortName: OK
+    TargetNodeGuid: 7848ca31-f5c3-4641-8d97-c8c15f296d4c
+  - BaseNodeGuid: 2b363d65-5f93-423b-b61a-83343d6021f1
+    PortName: Terrible
+    TargetNodeGuid: 77565673-c063-46f9-8867-152a1a988816
+  - BaseNodeGuid: a2b0ff29-b746-43ed-86b2-dc987109ef1f
+    PortName: I won the lottery!
+    TargetNodeGuid: 1b011f3b-f6e5-4aed-b455-8676f8a64c62
+  - BaseNodeGuid: 8b44afd3-ff83-44d5-8900-99c0178a10f4
+    PortName: I finished my tools 2 assignment!
+    TargetNodeGuid: 3019cec1-89fb-488e-afef-374a7a281585
+  - BaseNodeGuid: 8b44afd3-ff83-44d5-8900-99c0178a10f4
+    PortName: I finished my ECE project
+    TargetNodeGuid: c476ae7c-da30-40a4-bcfc-0088a23babd6
+  - BaseNodeGuid: 7848ca31-f5c3-4641-8d97-c8c15f296d4c
+    PortName: Went to class
+    TargetNodeGuid: 0bec03b1-da82-4435-9889-062657ba6394
+  - BaseNodeGuid: 7848ca31-f5c3-4641-8d97-c8c15f296d4c
+    PortName: Went to the gym
+    TargetNodeGuid: bbe83f8b-31bd-4d2a-9024-44984e73cb39
+  - BaseNodeGuid: 7848ca31-f5c3-4641-8d97-c8c15f296d4c
+    PortName: Slept in class
+    TargetNodeGuid: 5b002e01-c282-4f0e-8ced-4b875ba40669
+  DialogueNodeData:
+  - Guid: a2b0ff29-b746-43ed-86b2-dc987109ef1f
+    DialogueText: That's amazing! What did you do today?
+    Position: {x: 584, y: -44}
+  - Guid: 2b363d65-5f93-423b-b61a-83343d6021f1
+    DialogueText: Hey! How is your day?
+    Position: {x: 247.2, y: 171.2}
+  - Guid: 1b011f3b-f6e5-4aed-b455-8676f8a64c62
+    DialogueText: Congrats!
+    Position: {x: 988.8, y: -206.40001}
+  - Guid: 8b44afd3-ff83-44d5-8900-99c0178a10f4
+    DialogueText: That's great! What did you do today?
+    Position: {x: 732.8, y: 123.2}
+  - Guid: 3019cec1-89fb-488e-afef-374a7a281585
+    DialogueText: That's good, I still have to finish it.
+    Position: {x: 1177.6, y: -44}
+  - Guid: c476ae7c-da30-40a4-bcfc-0088a23babd6
+    DialogueText: I have no idea what ECE is.
+    Position: {x: 1177.6, y: 147.2}
+  - Guid: 7848ca31-f5c3-4641-8d97-c8c15f296d4c
+    DialogueText: What did you do today?
+    Position: {x: 716.8, y: 276.80002}
+  - Guid: 0bec03b1-da82-4435-9889-062657ba6394
+    DialogueText: That's surprising...
+    Position: {x: 1177.6, y: 267.2}
+  - Guid: bbe83f8b-31bd-4d2a-9024-44984e73cb39
+    DialogueText: Jheez, I see your pump!
+    Position: {x: 1177.6, y: 372.80002}
+  - Guid: 5b002e01-c282-4f0e-8ced-4b875ba40669
+    DialogueText: Haha, what a silly goose!
+    Position: {x: 1177.6, y: 490.40002}
+  - Guid: 77565673-c063-46f9-8867-152a1a988816
+    DialogueText: Yeah mine too
+    Position: {x: 647.2, y: 464}
