@@ -1,6 +1,6 @@
 # Unity Localized Dialogue System Tool
 
-The goal of this project is to create a node-based dialogue system using C#, Unity's GraphView API, Unity3D Editor API and the Model-View-Controller pattern. (2022).
+The goal of this project is to create a node-based dialogue system using C#, Unity's GraphView API, Unity3D Editor API, the Model-View-Controller pattern and OOP. (2022).
 
 #### This Localized Dialogue System Tool:
 * Uses **CustomEditor** for the creation, modification and deletion of branching response trees for dialogues, with multiple responses per prompt
